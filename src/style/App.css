@@ -14,7 +14,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image:url('../../public/3d-gym-equipment_23-2151114163.avif');
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,3 +37,5 @@
     transform: rotate(360deg);
   }
 }
+
+

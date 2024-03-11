@@ -1,0 +1,127 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: #00000000;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.2px);
+    -webkit-backdrop-filter: blur(8.2px);
+    border: 1px solid #369eff66;
+    width: 14em;
+    height: 14em;
+  }
+  .input-group {
+    position: relative;
+   }
+   
+   .input {
+    border: solid 1.5px #9e9e9e;
+    border-radius: 1rem;
+    background: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: #f5f5f5;
+   
+   }
+   
+   .user-label {
+    position: absolute;
+    left: 15%;
+    color: #e8e8e8;
+    pointer-events: none;
+   
+   
+   }
+   
+   .input:focus, input:valid {
+    outline: none;
+    border: 1.5px solid #1a73e8;
+   }
+   
+   .input:focus ~ label, input:valid ~ label {
+    
+    background-color: #ffffff00;
+    padding: 0 .2em;
+    top: -80%;
+    text-align: center;
+    color: #f8f8f8;
+   }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    top: -15%;
+    margin-top: auto;
+    margin-bottom: auto;
+   /*margin: 10%; gap: 55%;background-color: #1a73e8;*/ 
+  }
+  
+  .content > * {
+    margin-bottom: 10%; 
+  }
+
+  .form p {
+    color: #fff;
+    font-weight: bolder;
+  }
+  
+  .path {
+    fill: #369eff
+  }
+  
+  .svg {
+    filter: blur(20px);
+    z-index: -1;
+    position: absolute;
+    opacity: 50%;
+    animation: anim 3s infinite;
+  }
+  
+
+  .form button {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #00000000;
+    color: #fff;
+    width: 8.5em;
+    height: 2.3em;
+    border: #369eff 0.2em solid;
+    border-radius: 11px;
+   
+  }
+  
+  .form button:hover {
+    background-color: #369eff;
+  }
+  
+  @keyframes anim {
+    0% {
+      transform: translateY(-70px);
+    }
+  
+    50% {
+      transform: translateY(-19px);
+    }
+  
+    100% {
+      transform: translateY(-70px);
+    }
+  }
+
+
+  .form {
+    background: #0c0f14;
+    box-shadow: 0px 187px 75px rgba(0, 0, 0, 0.01),
+      0px 105px 63px rgba(0, 0, 0, 0.05), 0px 47px 47px rgba(0, 0, 0, 0.09),
+      0px 12px 26px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    position: relative;
+    border-radius: 25px;
+  }
+
+  
